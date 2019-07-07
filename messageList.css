@@ -1,0 +1,32 @@
+body {
+    background-color: #eee;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.container {
+    background-color: #555;
+    width: 1200px;
+    margin: 0 auto;
+    height: 90%;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: red;
+    padding: 5px;
+}
+li {
+    margin: 5px;
+    background-color: #333;
+    padding: 10px;
+}
+.author {
+    background-color: #aaa;
+    padding: 5px;
+    margin-right: 10px;
+}

@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #eee;
+    color: #fff;
+}
+form input {
+    display: block;
+    margin: 5px 0;
+    width: 100%;
+}
+.box {
+    background-color: #555;
+    padding: 20px;
+}
+a {
+    color: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+    display: block;
+}
+.error {
+    color: #f00;
+    margin-bottom: 10px;
+}
+.submit {
+    background-color: #0f0;
+    color: #fff;
+    border: 0;
+    padding: 5px;
+    margin: 20px auto 0 auto;
+}
+.submit:active {
+    background-color: #0d0;
+}
